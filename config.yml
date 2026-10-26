@@ -1,6 +1,6 @@
 theme: "glassmorphism"
 lang: "en"
-color_scheme: "auto"
+color_scheme: "light"
 
 # Pulls the latest posts from the hospital blog (WordPress feed)
 plugins:
@@ -9,7 +9,7 @@ plugins:
 google_analytics_id: ""
 
 title: "St. Stephen's Hospital Links"
-avatar: "./images/profile.jpeg"
+avatar: "./images/logo.png"
 name: "@ssh_delhi"
 tagline: >-
   Official social media links and updates for St. Stephen's Hospital.
