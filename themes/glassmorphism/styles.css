@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap');
 
-/* St. Stephen's Hospital: dark navy theme with prominent brand colours.
+/* St. Stephen's Hospital: azure-blue theme with prominent brand colours.
    Same look in light and dark system modes. */
 :root,
 :root.scheme-dark,
@@ -13,17 +13,17 @@
   --butter: #F5E6A6;
   --sky-pop: #A9D6FF;
 
-  --bg-1: #0b1d36;
-  --bg-2: #123a6b;
-  --shape-1: #2364AA;
+  --bg-1: #1b4f8a;
+  --bg-2: #2364AA;
+  --shape-1: #A9D6FF;
   --shape-2: #F06277;
   --shape-3: #73BFB8;
   --fg: #ffffff;
-  --muted: #c4d6e6;
-  --glass-bg: rgba(255, 255, 255, 0.08);
-  --glass-border: rgba(255, 255, 255, 0.16);
-  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
-  --hover-bg: rgba(255, 255, 255, 0.16);
+  --muted: #dbe8f3;
+  --glass-bg: rgba(255, 255, 255, 0.13);
+  --glass-border: rgba(255, 255, 255, 0.24);
+  --glass-shadow: 0 8px 32px rgba(8, 30, 60, 0.25);
+  --hover-bg: rgba(255, 255, 255, 0.22);
   --sans: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   --heading: 'Montserrat', 'Work Sans', sans-serif;
   --language-switcher-bg: var(--glass-bg);
@@ -65,9 +65,9 @@ a { color: inherit; text-decoration: none; }
   opacity: 0.55;
   pointer-events: none;
 }
-.bg-shape-1 { width: 420px; height: 420px; background: var(--shape-1); top: -100px; left: -120px; }
-.bg-shape-2 { width: 300px; height: 300px; background: var(--shape-2); bottom: 8%; right: -90px; opacity: 0.4; }
-.bg-shape-3 { width: 280px; height: 280px; background: var(--shape-3); top: 45%; left: 25%; opacity: 0.3; }
+.bg-shape-1 { width: 420px; height: 420px; background: var(--shape-1); top: -100px; left: -120px; opacity: 0.35; }
+.bg-shape-2 { width: 320px; height: 320px; background: var(--shape-2); bottom: 8%; right: -90px; opacity: 0.5; }
+.bg-shape-3 { width: 300px; height: 300px; background: var(--shape-3); top: 45%; left: 20%; opacity: 0.45; }
 
 .container { width: 100%; max-width: 460px; position: relative; z-index: 1; }
 
@@ -108,8 +108,8 @@ a { color: inherit; text-decoration: none; }
 .description {
   font-size: 14px;
   font-weight: 500;
-  color: var(--aqua);
-  letter-spacing: 0.02em;
+  color: var(--butter);
+  letter-spacing: 0.04em;
   max-width: 34ch;
   margin: 0 auto;
 }
@@ -130,7 +130,7 @@ a { color: inherit; text-decoration: none; }
 .link-button:focus-visible {
   background: var(--hover-bg);
   transform: translateY(-2px);
-  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 36px rgba(8, 30, 60, 0.35);
   outline: none;
 }
 
@@ -161,23 +161,22 @@ a { color: inherit; text-decoration: none; }
 .links > :nth-child(1) .link-button:hover,
 .links > .link-button:nth-child(1):hover { background: #e2546a; }
 
-/* 2. Find a Doctor: aqua icon */
+/* Order: 1 Emergency, 2 Instagram, 3 Facebook, 4 YouTube,
+   5 LinkedIn, 6 Find a Doctor, 7 Official Website */
 .links > :nth-child(2) .link-icon,
-.links > .link-button:nth-child(2) .link-icon { background: var(--aqua); }
-
-/* 3. Official Website: azure icon (default) */
-
-/* 4-7. Socials, each in its own platform colour */
-.links > :nth-child(4) .link-icon,
-.links > .link-button:nth-child(4) .link-icon { background: #1877F2; }
-.links > :nth-child(5) .link-icon,
-.links > .link-button:nth-child(5) .link-icon {
+.links > .link-button:nth-child(2) .link-icon {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
+.links > :nth-child(3) .link-icon,
+.links > .link-button:nth-child(3) .link-icon { background: #1877F2; }
+.links > :nth-child(4) .link-icon,
+.links > .link-button:nth-child(4) .link-icon { background: #FF0000; }
+.links > :nth-child(5) .link-icon,
+.links > .link-button:nth-child(5) .link-icon { background: #0A66C2; }
 .links > :nth-child(6) .link-icon,
-.links > .link-button:nth-child(6) .link-icon { background: #0A66C2; }
+.links > .link-button:nth-child(6) .link-icon { background: var(--aqua); }
 .links > :nth-child(7) .link-icon,
-.links > .link-button:nth-child(7) .link-icon { background: #FF0000; }
+.links > .link-button:nth-child(7) .link-icon { background: #12345e; }
 
 /* Hide the empty social icon row */
 .button-container:empty,
@@ -199,5 +198,5 @@ a { color: inherit; text-decoration: none; }
 }
 
 @supports not (backdrop-filter: blur(20px)) {
-  .card { background: rgba(18, 52, 94, 0.92); }
+  .card { background: rgba(35, 100, 170, 0.92); }
 }
