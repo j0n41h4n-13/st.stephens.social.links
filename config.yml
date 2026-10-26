@@ -1,20 +1,30 @@
 theme: "glassmorphism"
 lang: "en"
-color_scheme: "light"
-
-# Pulls the latest posts from the hospital blog (WordPress feed)
-plugins:
-  - RSSFeedPlugin: "https://ststephenshospital.org/feed/"
+color_scheme: "dark"
 
 google_analytics_id: ""
 
 title: "St. Stephen's Hospital Links"
 avatar: "./images/logo.png"
-name: "@ssh_delhi"
+name: "St. Stephen's Hospital"
 tagline: >-
-  Official social media links and updates for St. Stephen's Hospital.
+  @ssh_delhi · Serving Delhi since 1885
 
 links:
+  - link:
+      icon: "fa-solid fa-phone"
+      text: "Emergency: 011-23966021"
+      url: "tel:+911123966021"
+      alt: "Call St. Stephen's Hospital Emergency"
+      title: "Call Emergency"
+      target: "_self"
+  - link:
+      icon: "fa-solid fa-user-doctor"
+      text: "Find a Doctor"
+      url: "https://ststephenshospital.org/find-a-doctor/"
+      alt: "Find a Doctor at St. Stephen's Hospital"
+      title: "Find a Doctor"
+      target: "_blank"
   - link:
       icon: "fa-solid fa-globe"
       text: "Official Website"
@@ -23,47 +33,37 @@ links:
       title: "Official Website"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-newspaper"
-      text: "Latest Updates & News"
-      url: "https://www.instagram.com/ssh_delhi/"
-      alt: "Latest updates"
-      title: "Latest Updates"
-      target: "_blank"
-      latest: true
-
-socials:
-  - social:
-      icon: "fa-solid fa-globe"
-      url: "https://ststephenshospital.org/"
-      title: "Website"
-      alt: "St. Stephen's Hospital Website"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/ssh_delhi/"
-      title: "Instagram"
-      alt: "Instagram"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-facebook"
+      icon: "fa-brands fa-facebook-f"
+      text: "Facebook"
       url: "https://www.facebook.com/profile.php?id=100054476620430"
+      alt: "St. Stephen's Hospital on Facebook"
       title: "Facebook"
-      alt: "Facebook"
       target: "_blank"
-  - social:
-      icon: "fa-brands fa-linkedin"
+  - link:
+      icon: "fa-brands fa-instagram"
+      text: "Instagram"
+      url: "https://www.instagram.com/ssh_delhi/"
+      alt: "St. Stephen's Hospital on Instagram"
+      title: "Instagram"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-linkedin-in"
+      text: "LinkedIn"
       url: "https://www.linkedin.com/company/104468413"
+      alt: "St. Stephen's Hospital on LinkedIn"
       title: "LinkedIn"
-      alt: "LinkedIn"
       target: "_blank"
-  - social:
+  - link:
       icon: "fa-brands fa-youtube"
+      text: "YouTube"
       url: "https://www.youtube.com/channel/UC7XE3-MOm9pirIw7QZOFEGA"
+      alt: "St. Stephen's Hospital on YouTube"
       title: "YouTube"
-      alt: "YouTube"
       target: "_blank"
+
+socials: []
 
 footer: >-
-  Stay connected with St. Stephen's Hospital across our official social channels.
+  St. Stephen's Hospital Marg, Tis Hazari, Delhi 110054
 
-copyright: "© 2026 St. Stephen's Hospital. Powered by linkyee"
+copyright: "© 2026 St. Stephen's Hospital"
