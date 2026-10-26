@@ -8,7 +8,7 @@ title: "St. Stephen's Hospital Links"
 avatar: "./images/logo.png"
 name: "St. Stephen's Hospital"
 tagline: >-
-  @ssh_delhi · Serving Delhi since 1885
+  Serving Delhi since 1885
 
 links:
   - link:
@@ -18,6 +18,34 @@ links:
       alt: "Call St. Stephen's Hospital Emergency"
       title: "Call Emergency"
       target: "_self"
+  - link:
+      icon: "fa-brands fa-instagram"
+      text: "Follow us on Instagram"
+      url: "https://www.instagram.com/ssh_delhi/"
+      alt: "St. Stephen's Hospital on Instagram"
+      title: "Instagram"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-facebook-f"
+      text: "Follow us on Facebook"
+      url: "https://www.facebook.com/profile.php?id=100054476620430"
+      alt: "St. Stephen's Hospital on Facebook"
+      title: "Facebook"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-youtube"
+      text: "Subscribe on YouTube"
+      url: "https://www.youtube.com/channel/UC7XE3-MOm9pirIw7QZOFEGA"
+      alt: "St. Stephen's Hospital on YouTube"
+      title: "YouTube"
+      target: "_blank"
+  - link:
+      icon: "fa-brands fa-linkedin-in"
+      text: "Connect on LinkedIn"
+      url: "https://www.linkedin.com/company/104468413"
+      alt: "St. Stephen's Hospital on LinkedIn"
+      title: "LinkedIn"
+      target: "_blank"
   - link:
       icon: "fa-solid fa-user-doctor"
       text: "Find a Doctor"
@@ -31,34 +59,6 @@ links:
       url: "https://ststephenshospital.org/"
       alt: "St. Stephen's Hospital Website"
       title: "Official Website"
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-facebook-f"
-      text: "Facebook"
-      url: "https://www.facebook.com/profile.php?id=100054476620430"
-      alt: "St. Stephen's Hospital on Facebook"
-      title: "Facebook"
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-instagram"
-      text: "Instagram"
-      url: "https://www.instagram.com/ssh_delhi/"
-      alt: "St. Stephen's Hospital on Instagram"
-      title: "Instagram"
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-linkedin-in"
-      text: "LinkedIn"
-      url: "https://www.linkedin.com/company/104468413"
-      alt: "St. Stephen's Hospital on LinkedIn"
-      title: "LinkedIn"
-      target: "_blank"
-  - link:
-      icon: "fa-brands fa-youtube"
-      text: "YouTube"
-      url: "https://www.youtube.com/channel/UC7XE3-MOm9pirIw7QZOFEGA"
-      alt: "St. Stephen's Hospital on YouTube"
-      title: "YouTube"
       target: "_blank"
 
 socials: []
